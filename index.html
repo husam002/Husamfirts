@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Summer Solstice Garden Party</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(rgba(255, 245, 235, 0.8), rgba(255, 245, 235, 0.8)), 
+                  url('https://images.unsplash.com/photo-1498654200943-1088dd4438ae') no-repeat center center fixed;
+      background-size: cover;
+      color: #3b3b3b;
+      text-align: center;
+    }
+
+    .invite-container {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      margin: 5% auto;
+      max-width: 650px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #d6336c;
+      margin-bottom: 1.2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 0.4rem 0;
+      color: #4a4a4a;
+    }
+
+    .rsvp-button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.6rem;
+      background-color: #20c997; /* أخضر ناعم */
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 12px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .rsvp-button:hover {
+      background-color: #17a589;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
   <div class="invite-container">
